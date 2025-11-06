@@ -18,7 +18,7 @@ Implementa un patrón **CSR (Controller–Service–Repository)**, validaciones 
 ---
 
 ## 🧱 Estructura del proyecto
-bash```
+bash´´´
 src/
 └─ main/
 ├─ java/com/proferoberto/biblioteca
@@ -33,7 +33,7 @@ src/
 ├─ application.properties
 ├─ data.sql → Datos iniciales (opcional)
 └─ static/ → Recursos estáticos (si aplica)
-```
+´´´
 ## ⚙️ Configuración del entorno
 
 ### Requisitos previos
