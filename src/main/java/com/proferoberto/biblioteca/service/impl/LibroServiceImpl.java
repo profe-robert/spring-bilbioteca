@@ -50,7 +50,6 @@ public class LibroServiceImpl implements LibroService {
         actual.setAutor(libro.getAutor());
         actual.setAnioPublicacion(libro.getAnioPublicacion());
         actual.setGenero(libro.getGenero());
-        actual.setIsbn(libro.getIsbn());
         actual.setStock(libro.getStock());
         actual.setPrecio(libro.getPrecio());
         return repo.save(actual);

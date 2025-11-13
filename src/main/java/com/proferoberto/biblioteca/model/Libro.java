@@ -28,10 +28,6 @@ public class Libro {
 
     private String genero;
 
-    @Pattern(regexp = "^[0-9-]*$", message = "ISBN inválido (solo dígitos y guiones)")
-    @Column(unique = true)
-    private String isbn;
-
     @Min(0)
     private Integer stock;
 

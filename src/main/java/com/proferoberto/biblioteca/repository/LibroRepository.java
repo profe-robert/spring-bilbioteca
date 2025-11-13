@@ -7,5 +7,4 @@ import java.util.List;
 
 public interface LibroRepository extends JpaRepository<Libro, Long> {
     List<Libro> findByTituloContainingIgnoreCase(String titulo);
-    boolean existsByIsbn(String isbn);
 }
