@@ -15,19 +15,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(
-    origins = "http://localhost:3000",
-    allowedHeaders = "*",
-    methods = {
-        RequestMethod.GET, 
-        RequestMethod.POST, 
-        RequestMethod.PUT, 
-        RequestMethod.DELETE, 
-        RequestMethod.PATCH, 
-        RequestMethod.OPTIONS
-    }
-)
-
 @RestController
 @RequestMapping("/api/v1/libros")
 public class LibroController {
